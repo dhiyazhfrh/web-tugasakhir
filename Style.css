@@ -4,25 +4,17 @@
 	box-sizing: border-box;
 }
 
-
-li, a{
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px;
-    color: #333;
-    text-decoration: none;
-}
-
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin : 40px;
-    margin-left: 80px;
+    height: 100px;
 }
 
 .logo{
     cursor: pointer;
     align-items: flex-start;
+    margin-left: 80px;
     margin-bottom: 10px;
     width: 160px;
 }
@@ -37,6 +29,10 @@ header{
 }
 
 .nav__links li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
     transition: all 0.3s ease 0s;
 }
 
@@ -85,6 +81,13 @@ header{
     color: #333;
 }
 
+.text1 a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+}
+
 .row2{
     width: 100%;
     display: flex;
@@ -101,6 +104,13 @@ header{
     width: 60%;
     align-items: flex-end;
     padding: 150px;
+}
+
+.text2 a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
 }
 
 .text2 h2{
@@ -120,4 +130,34 @@ header{
     font-size: 16px;
     color: white;
     font-family: 'Poppins', sans-serif;
+}
+
+.sidebar{
+    width: 20%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #9DAA50;
+}
+
+.sidebar-brand{
+    height: 175px;
+    padding: 3rem 0rem 0rem 5rem;
+}
+
+.sidebar-brand .logo2{
+    display: inline-block;
+    width: 160px;
+    padding-right: 1rem;
+}
+
+.sidebar-menu li{
+    width: 100%;
+    margin-bottom: 1.5rem;
+
+}
+
+.icon{
+    width: 20px;
 }
