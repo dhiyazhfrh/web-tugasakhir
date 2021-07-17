@@ -14,34 +14,59 @@
             </div>
             <div class="sidebar-menu">
                 <ul>
-                    <li><a href="#"><img class="icon" src="img/dash.svg">Dashboard</a></li>
-                    <li><a href="#"><img class="icon" src="img/statik.svg">Statistics</a></li>
-                    <li><a href="#"><img class="icon" src="img/component.svg">Components</a></li>
+                    <li><a href="Dashboard.php"><span class="icon" src="img/dash.svg"></span>
+                        <span>Dashboard</span></a></li>
+                    <li><a href="#"><span class="icon" src="img/statik.svg"></span>
+                        <span>Statistics</span></a></li>
+                    <li><a href="#"><span class="icon" src="img/component.svg"></span>
+                        <span>Components</span></a></li>
                 </ul>
             </div>
         </div>
         <div class="main-dash">
             <header>
-                <h1><label for=""><span class="las la-bars"></span></label> Our Garden</h1>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="#">Our Garden</a></li>
+                </ul>
+            </nav>
             </header>
             <main>
                 <div class="cards">
                     <div class="card-single">
                         <div>
                             <h1>0</h1>
-                            <span>Moisture</span>
+                            <span>Soil Moisture</span>
                         </div>
                         <div>
-                            <span class="icon2" src="img/mois.svg"></span>
+                            <img class="icon2" src="img/mois.svg">
                         </div>
                     </div>
                     <div class="card-single">
                         <div>
                             <h1>0</h1>
-                            <span>Moisture</span>
+                            <span>Humidity (%t)</span>
                         </div>
                         <div>
-                            <span class="icon2" src="img/mois.svg"></span>
+                            <img class="icon2" src="img/humid.svg">
+                        </div>
+                    </div>
+                    <div class="card-single">
+                        <div>
+                            <h1>0</h1>
+                            <span>Temperature (*C)</span>
+                        </div>
+                        <div>
+                            <img class="icon2" src="img/temp.svg">
+                        </div>
+                    </div>
+                    <div class="card-single">
+                        <div>
+                            <h1>0</h1>
+                            <span>Water Level</span>
+                        </div>
+                        <div>
+                            <img class="icon2" src="img/water.svg">
                         </div>
                     </div>
                 </div>
