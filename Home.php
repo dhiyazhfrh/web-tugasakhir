@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Grow</title>
+        <title>Grow Application</title>
         <link rel="stylesheet" type="text/css" href="Style.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
