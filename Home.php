@@ -12,7 +12,7 @@
             <img class="logo" src="img/logo1.png">
             <nav>
                 <ul class="nav__links">
-                    <li><a href="#">Our Garden</a></li>
+                    <li><a href="Dashboard.php">Our Garden</a></li>
                     <li><a href="#">Contact Us</a></li>
                     <li><a href="#">Login</a></li>
                 </ul>
