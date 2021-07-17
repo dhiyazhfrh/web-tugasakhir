@@ -10,7 +10,7 @@
     <body>
         <div class="sidebar">
             <div class="sidebar-brand">
-            <img class="logo2" src="img/logo2.png">
+            <img href="Home.php" class="logo2" src="img/logo2.png">
             </div>
             <div class="sidebar-menu">
                 <ul>
