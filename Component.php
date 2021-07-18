@@ -37,7 +37,7 @@
             </nav>
             </header>
             <main>
-                <div class="cards">
+                <div class="cards2">
                     <div class="card-single">
                         <div>
                             <h1>0</h1>
@@ -49,33 +49,23 @@
                     </div>
                     <div class="card-single">
                         <div>
-                            <h1>0</h1>
-                            <span>Humidity (%t)</span>
+                            <span>1. Arduino Mega 2560</span>
+                            <span>2. Nodemcu ESP8266</span>
+                            <span>3. Soil Moisture Sensor</span>
+                            <span>4. DHT 11 Sensor</span>
+                            <span>5. Water Level Sensor</span>
+                            <span>6. PIR Motion Sensor</span>
                         </div>
                         <div>
-                            <img class="icon2" src="img/humid.svg">
-                        </div>
-                    </div>
-                    <div class="card-single">
-                        <div>
-                            <h1>0</h1>
-                            <span>Temperature (*C)</span>
-                        </div>
-                        <div>
-                            <img class="icon2" src="img/temp.svg">
-                        </div>
-                    </div>
-                    <div class="card-single">
-                        <div>
-                            <h1>0</h1>
-                            <span>Water Level</span>
-                        </div>
-                        <div>
-                            <img class="icon2" src="img/water.svg">
+                            <span>7. Buzzer</span>
+                            <span>8. LED</span>
+                            <span>9. Relay</span>
+                            <span>10. Peristaltic Pump</span>
+                            <span>11. Power Supply</span>
                         </div>
                     </div>
                 </div>
             </main>
         </div>
     </body>
-</html> 
+</html>
