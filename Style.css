@@ -231,3 +231,9 @@ main{
    display: flex;
    align-items: flex-start;
 }
+
+.cards2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+}

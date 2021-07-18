@@ -32,7 +32,7 @@
             <header>
             <nav>
                 <ul class="nav__links">
-                    <li><a href="#">Our Garden</a></li>
+                    <li><a>Our Garden</a></li>
                 </ul>
             </nav>
             </header>
