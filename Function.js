@@ -34,8 +34,10 @@ tempref.limitToLast(1).on('value', function(snapshot){
     });
 });
 
-waterref.on('value', function(snapshot){
-    var water = snapshot.child('water_level');
-    var water_sensor = water.val();
-    water_level.innerText = water_sensor;
+waterref.limitToLast(1).on('value', function(snapshot){
+    snapshot.forEach(function(childSnapshot){
+        var childData = childSnapshot.val();
+        console.log("water level : " + childData);
+        water_level.innerText = childData;
+    });
 });
