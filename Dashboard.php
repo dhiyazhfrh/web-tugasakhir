@@ -4,6 +4,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Grow Application</title>
         <link rel="stylesheet" type="text/css" href="Style.css">
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
@@ -14,15 +15,15 @@
             </div>
             <div class="sidebar-menu">
                 <ul>
-                    <li><a href="Dashboard.php"><span class="icon" src="img/dash.svg"></span>
+                    <li><a href="Dashboard.php"><span class="las la-igloo"></span>
                         <span>Dashboard</span></a></li>
-                    <li><a href="#"><span class="icon" src="img/statik.svg"></span>
+                    <li><a href="#"><span class="las la-chart-line"></span>
                         <span>Statistics</span></a></li>
-                    <li><a href="#"><span class="icon" src="img/component.svg"></span>
+                    <li><a href="#"><span class="las la-microchip"></span>
                         <span>Components</span></a></li>
-                    <li><a href="#"><span class="icon" src="img/component.svg"></span>
+                    <li><a href="#"><span class="las la-user-friends"></span>
                         <span>Contact us</span></a></li>
-                    <li><a href="#"><span class="icon" src="img/component.svg"></span>
+                    <li><a href="#"><span class="las la-sign-out-alt"></span>
                         <span>Logout</span></a></li>
                 </ul>
             </div>
