@@ -19,7 +19,7 @@
                         <span>Dashboard</span></a></li>
                     <li><a href="Statistic.php"><span class="las la-chart-line"></span>
                         <span>Statistics</span></a></li>
-                    <li><a href="Compenent.php"><span class="las la-microchip"></span>
+                    <li><a href="Component.php"><span class="las la-microchip"></span>
                         <span>Components</span></a></li>
                     <li><a href="Contact.php"><span class="las la-user-friends"></span>
                         <span>Developers</span></a></li>
@@ -32,7 +32,7 @@
             <header>
             <nav>
                 <ul class="nav__links">
-                    <li><a>Our Garden</a></li>
+                    <li><a>Developers</a></li>
                 </ul>
             </nav>
             </header>
@@ -40,17 +40,9 @@
                 <div class="cards2">
                     <div class="card-single">
                         <div>
-                            <h1>0</h1>
-                            <span>Soil Moisture</span>
-                        </div>
-                        <div>
-                            <img class="icon2" src="img/mois.svg">
-                        </div>
-                    </div>
-                    <div class="card-single">
-                        <div>
-                            <h1>0</h1>
-                            <span>Humidity (%t)</span>
+                            <h1>Group 2 | 4SC 6</h1><br>
+                            <span>1. Dhiya Zhafirah</span>
+                            <span>2. Surya Rifqi Fadhilah</span>
                         </div>
                     </div>
                 </div>
