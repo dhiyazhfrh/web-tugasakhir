@@ -20,6 +20,10 @@
                         <span>Statistics</span></a></li>
                     <li><a href="#"><span class="icon" src="img/component.svg"></span>
                         <span>Components</span></a></li>
+                    <li><a href="#"><span class="icon" src="img/component.svg"></span>
+                        <span>Contact us</span></a></li>
+                    <li><a href="#"><span class="icon" src="img/component.svg"></span>
+                        <span>Logout</span></a></li>
                 </ul>
             </div>
         </div>
