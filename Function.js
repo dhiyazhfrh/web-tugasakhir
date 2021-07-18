@@ -1,0 +1,41 @@
+const soil = document.getElementById('soil');
+const humidity = document.getElementById('humidity');
+const temperature = document.getElementById('temperature');
+const water_level = document.getElementById('water_level');
+
+var database = firebase.database();
+
+const soilref = database.ref('sensor').child('moisture');
+const humref = database.ref('sensor').child('humidity');
+const tempref = database.ref('sensor').child('temperature');
+const waterref = database.ref('sensor').child('water_level');
+
+soilref.limitToLast(1).on('value', function(snapshot){
+    snapshot.forEach(function(childSnapshot){
+        var childData = childSnapshot.val();
+        console.log("moisture level : " + childData);
+        soil.innerText = childData;
+    });
+});
+
+humref.limitToLast(1).on('value', function(snapshot){
+    snapshot.forEach(function(childSnapshot){
+        var childData = childSnapshot.val();
+        console.log("humidity : " + childData);
+        humidity.innerText = childData;
+    });
+});
+
+tempref.limitToLast(1).on('value', function(snapshot){
+    snapshot.forEach(function(childSnapshot){
+        var childData = childSnapshot.val();
+        console.log("temperature : " + childData);
+        temperature.innerText = childData;
+    });
+});
+
+waterref.on('value', function(snapshot){
+    var water = snapshot.child('water_level');
+    var water_sensor = water.val();
+    water_level.innerText = water_sensor;
+});

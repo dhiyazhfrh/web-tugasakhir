@@ -40,7 +40,7 @@
                 <div class="cards">
                     <div class="card-single">
                         <div>
-                            <h1>0</h1>
+                            <h1 id="soil">0</h1>
                             <span>Soil Moisture</span>
                         </div>
                         <div>
@@ -49,7 +49,7 @@
                     </div>
                     <div class="card-single">
                         <div>
-                            <h1>0</h1>
+                            <h1 id="humidity">0</h1>
                             <span>Humidity (%t)</span>
                         </div>
                         <div>
@@ -58,7 +58,7 @@
                     </div>
                     <div class="card-single">
                         <div>
-                            <h1>0</h1>
+                            <h1 id="temperature">0</h1>
                             <span>Temperature (*C)</span>
                         </div>
                         <div>
@@ -67,7 +67,7 @@
                     </div>
                     <div class="card-single">
                         <div>
-                            <h1>0</h1>
+                            <h1 id="water_level">0</h1>
                             <span>Water Level</span>
                         </div>
                         <div>
@@ -78,4 +78,26 @@
             </main>
         </div>
     </body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyB6NQrnRPmZ64UN0fgmCUGN7cy-jv8fbx4",
+    authDomain: "smart-garden-project-9d1e5.firebaseapp.com",
+    databaseURL: "https://smart-garden-project-9d1e5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "smart-garden-project-9d1e5",
+    storageBucket: "smart-garden-project-9d1e5.appspot.com",
+    messagingSenderId: "561294668246",
+    appId: "1:561294668246:web:75da4780adb33b01937477"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="Function.js"></script>
+
 </html> 
