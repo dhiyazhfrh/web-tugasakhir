@@ -14,7 +14,6 @@
                 <ul class="nav__links">
                     <li><a href="Dashboard.php">Our Garden</a></li>
                     <li><a href="Contact.php">Developers</a></li>
-                    <li><a href="#">Login</a></li>
                 </ul>
             </nav>
         </header>
@@ -40,7 +39,7 @@
             </div>
         </div>
         <div class="footer">
-            <p id="pfooter">©Copyright 2021</p>
+            <p id="pfooter">©Copyright 2021     |   4SC 6  Group 2</p>
         </div>
     </body>
 </html>
