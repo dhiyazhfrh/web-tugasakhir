@@ -13,17 +13,17 @@
             <div class="sidebar-brand">
             <img href="Home.php" class="logo2" src="img/logo2.png">
             </div>
-            <div class="sidebar-menu">
+            <div id="sidebar-menu">
                 <ul>
-                    <li><a href="Dashboard.php"><span class="las la-igloo"></span>
+                    <li><a class="list" href="Dashboard.php"><span class="las la-igloo"></span>
                         <span>Dashboard</span></a></li>
-                    <li><a href="Statistic.php"><span class="las la-chart-line"></span>
+                    <li><a class="list active" href="Statistic.php"><span class="las la-chart-line"></span>
                         <span>Statistics</span></a></li>
-                    <li><a href="Component.php"><span class="las la-microchip"></span>
+                    <li><a class="list" href="Component.php"><span class="las la-microchip"></span>
                         <span>Components</span></a></li>
-                    <li><a href="Contact.php"><span class="las la-user-friends"></span>
+                    <li><a class="list" href="Contact.php"><span class="las la-user-friends"></span>
                         <span>Developers</span></a></li>
-                    <lis><a href="#"><span class="las la-sign-out-alt"></span>
+                    <li><a class="list" href="#"><span class="las la-sign-out-alt"></span>
                         <span>Logout</span></a></li>
                 </ul>
             </div>
