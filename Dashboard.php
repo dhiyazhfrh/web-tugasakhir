@@ -11,7 +11,7 @@
     <body>
         <div class="sidebar">
             <div class="sidebar-brand">
-            <img href="Home.php" class="logo2" src="img/logo2.png">
+            <a href="Home.php"><img class="logo2" src="img/logo2.png"></a>
             </div>
             <div class="sidebar-menu">
                 <ul>
@@ -30,7 +30,7 @@
             <header>
             <nav>
                 <ul class="nav__links">
-                    <li><a>Our Garden</a></li>
+                    <h1>Our Garden</h1>
                 </ul>
             </nav>
             </header>
