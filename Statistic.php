@@ -11,7 +11,7 @@
     <body>
         <div class="sidebar">
             <div class="sidebar-brand">
-            <img href="Home.php" class="logo2" src="img/logo2.png">
+            <a href="Home.php"><img class="logo2" src="img/logo2.png"></a>
             </div>
             <div id="sidebar-menu">
                 <ul>
@@ -23,8 +23,6 @@
                         <span>Components</span></a></li>
                     <li><a class="list" href="Contact.php"><span class="las la-user-friends"></span>
                         <span>Developers</span></a></li>
-                    <li><a class="list" href="#"><span class="las la-sign-out-alt"></span>
-                        <span>Logout</span></a></li>
                 </ul>
             </div>
         </div>
@@ -32,7 +30,7 @@
             <header>
             <nav>
                 <ul class="nav__links">
-                    <li><a>Our Garden</a></li>
+                    <h1>Our Garden</h1>
                 </ul>
             </nav>
             </header>
@@ -45,6 +43,12 @@
                         </div>
                         <div>
                             <img class="icon2" src="img/mois.svg">
+                        </div>
+                    </div>
+                    <div class="card-single">
+                        <div>
+                            <h1>0</h1>
+                            <span>Humidity (%t)</span>
                         </div>
                     </div>
                     <div class="card-single">

@@ -48,7 +48,7 @@
                     <div class="card-single">
                         <div>
                             <h1 id="humidity">0</h1>
-                            <span>Humidity (%t)</span>
+                            <span>Humidity</span>
                         </div>
                         <div>
                             <img class="icon2" src="img/humid.svg">
@@ -57,7 +57,7 @@
                     <div class="card-single">
                         <div>
                             <h1 id="temperature">0</h1>
-                            <span>Temperature (*C)</span>
+                            <span>Temperature</span>
                         </div>
                         <div>
                             <img class="icon2" src="img/temp.svg">
