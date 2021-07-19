@@ -215,6 +215,21 @@ main{
     height: 280px;
     background: white;
     padding: 4rem;
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 0.7s;
+    animation-name: animatebottom;
+    animation-duration: 0.7s;
+}
+
+@-webkit-keyframes animatebottom{
+    from {bottom: -50px; opacity: 0;}
+    to {bottom: 0; opacity: 1;}
+}
+
+@keyframes animatebottom{
+    from {bottom: -50px; opacity: 0;}
+    to {bottom: 0; opacity: 1;}
 }
 
 .card-single h1{
