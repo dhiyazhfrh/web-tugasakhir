@@ -1,15 +1,19 @@
+//--------Value element------
 const soil = document.getElementById('soil');
 const humidity = document.getElementById('humidity');
 const temperature = document.getElementById('temperature');
 const water_level = document.getElementById('water_level');
 
+//-----database------
 var database = firebase.database();
 
+//-----database reference------
 const soilref = database.ref('sensor').child('moisture');
 const humref = database.ref('sensor').child('humidity');
 const tempref = database.ref('sensor').child('temperature');
 const waterref = database.ref('sensor').child('water_level');
 
+//-----data snapshot-------
 soilref.limitToLast(1).on('value', function(snapshot){
     snapshot.forEach(function(childSnapshot){
         var childData = childSnapshot.val();
