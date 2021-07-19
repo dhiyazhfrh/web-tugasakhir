@@ -11,7 +11,7 @@
     <body>
         <div class="sidebar">
             <div class="sidebar-brand">
-            <img href="Home.php" class="logo2" src="img/logo2.png">
+            <a href="Home.php"><img class="logo2" src="img/logo2.png"></a>
             </div>
             <div class="sidebar-menu">
                 <ul>
@@ -23,45 +23,26 @@
                         <span>Components</span></a></li>
                     <li><a class="list" href="Contact.php"><span class="las la-user-friends"></span>
                         <span>Developers</span></a></li>
-                    <li><a class="list" href="#"><span class="las la-sign-out-alt"></span>
-                        <span>Logout</span></a></li>
                 </ul>
             </div>
         </div>
         <div class="main-dash">
             <header>
             <nav>
-                <ul class="nav__links">
-                    <li><a>Our Garden</a></li>
+            <ul class="nav__links">
+                    <h1>Our Garden</h1>
                 </ul>
             </nav>
             </header>
             <main>
                 <div class="cards2">
-                    <div class="card-single">
+                    <div class="card-single2">
                         <div>
                             <h1>0</h1>
                             <span>Soil Moisture</span>
                         </div>
                         <div>
                             <img class="icon2" src="img/mois.svg">
-                        </div>
-                    </div>
-                    <div class="card-single">
-                        <div>
-                            <span>1. Arduino Mega 2560</span>
-                            <span>2. Nodemcu ESP8266</span>
-                            <span>3. Soil Moisture Sensor</span>
-                            <span>4. DHT 11 Sensor</span>
-                            <span>5. Water Level Sensor</span>
-                            <span>6. PIR Motion Sensor</span>
-                        </div>
-                        <div>
-                            <span>7. Buzzer</span>
-                            <span>8. LED</span>
-                            <span>9. Relay</span>
-                            <span>10. Peristaltic Pump</span>
-                            <span>11. Power Supply</span>
                         </div>
                     </div>
                 </div>

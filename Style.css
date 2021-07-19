@@ -178,13 +178,6 @@ header{
     padding-bottom: 1rem;
 }
 
-
-
-.sidebar-menu a span:first-child{
-    font-size: 24px;
-    padding-right: 0.5rem;
-}
-
 .main-dash{
     margin-left: 20%;
 }
@@ -271,4 +264,52 @@ main{
 .list{
     display: block;
     font-family: 'Poppins', sans-serif;
+}
+
+.card-single2{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    background: white;
+    padding: 3rem;
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 0.7s;
+    animation-name: animatebottom;
+    animation-duration: 0.7s;
+}
+
+.card-single2 .icon2{
+    width: 160px;
+   display: flex;
+   align-items: flex-start;
+}
+
+.card-single3{
+    display: flex;
+    align-items: center;
+
+    background: white;
+    padding: 3rem;
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 0.7s;
+    animation-name: animatebottom;
+    animation-duration: 0.7s;
+}
+
+.card-single3 h1{
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #333;
+}
+
+.card-single3 span{
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #333;
 }

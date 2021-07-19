@@ -11,7 +11,7 @@
     <body>
         <div class="sidebar">
             <div class="sidebar-brand">
-            <img href="Home.php" class="logo2" src="img/logo2.png">
+            <a href="Home.php"><img class="logo2" src="img/logo2.png"></a>
             </div>
             <div class="sidebar-menu">
                 <ul>
@@ -23,8 +23,6 @@
                         <span>Components</span></a></li>
                     <li><a class="list active" href="Contact.php"><span class="las la-user-friends"></span>
                         <span>Developers</span></a></li>
-                    <li><a class="list" href="#"><span class="las la-sign-out-alt"></span>
-                        <span>Logout</span></a></li>
                 </ul>
             </div>
         </div>
@@ -32,13 +30,13 @@
             <header>
             <nav>
                 <ul class="nav__links">
-                    <li><a>Developers</a></li>
+                    <h1>Developers</h1>
                 </ul>
             </nav>
             </header>
             <main>
                 <div class="cards2">
-                    <div class="card-single">
+                    <div class="card-single3">
                         <div>
                             <h1>Group 2 | 4SC 6</h1><br>
                             <span>1. Dhiya Zhafirah</span>
