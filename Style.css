@@ -164,13 +164,16 @@ header{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     color:white;
+    transition: 0.5s
 }
 
-.sidebar-menu a:active{
+.active, .sidebar-menu a:hover{
     background: #B8C762;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+
 
 .sidebar-menu a span:first-child{
     font-size: 24px;
@@ -236,4 +239,9 @@ main{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 2rem;
+}
+
+.list{
+    display: block;
+    font-family: 'Poppins', sans-serif;
 }

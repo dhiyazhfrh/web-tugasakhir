@@ -19,11 +19,11 @@
                         <span>Dashboard</span></a></li>
                     <li><a href="Statistic.php"><span class="las la-chart-line"></span>
                         <span>Statistics</span></a></li>
-                    <li><a href="Compenent.php"><span class="las la-microchip"></span>
+                    <li><a href="Component.php"><span class="las la-microchip"></span>
                         <span>Components</span></a></li>
                     <li><a href="Contact.php"><span class="las la-user-friends"></span>
                         <span>Developers</span></a></li>
-                    <li><a href="#"><span class="las la-sign-out-alt"></span>
+                    <lis><a href="#"><span class="las la-sign-out-alt"></span>
                         <span>Logout</span></a></li>
                 </ul>
             </div>
