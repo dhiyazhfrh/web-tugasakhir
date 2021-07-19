@@ -45,3 +45,22 @@ waterref.limitToLast(1).on('value', function(snapshot){
         water_level.innerText = childData;
     });
 });
+
+function getData(callbackIN){
+    var ref = database.ref('sensor').child('moisture');
+    ref.once('value').then(function(snapshot){
+        callbackIN(snapshot.val())
+    });
+}
+
+window.addEventListener("load", getData(genFunction));
+
+function genFunction(data){
+    var cdata = [];
+    var len = data.length;
+    for (var i = 1; i<len; i++){
+        cdata.push({
+
+        })
+    }
+}

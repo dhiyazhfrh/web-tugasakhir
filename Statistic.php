@@ -57,4 +57,25 @@
             </main>
         </div>
     </body>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+    <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
+    <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
+
+    <script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyB6NQrnRPmZ64UN0fgmCUGN7cy-jv8fbx4",
+    authDomain: "smart-garden-project-9d1e5.firebaseapp.com",
+    databaseURL: "https://smart-garden-project-9d1e5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "smart-garden-project-9d1e5",
+    storageBucket: "smart-garden-project-9d1e5.appspot.com",
+    messagingSenderId: "561294668246",
+    appId: "1:561294668246:web:75da4780adb33b01937477"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+    </script>   
+    <script src="App.js"></script>
 </html>

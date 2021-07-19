@@ -98,6 +98,6 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 </script>
-<script src="Function.js"></script>
+<script src="App.js"></script>
 
 </html> 
