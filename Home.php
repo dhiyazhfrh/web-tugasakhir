@@ -13,7 +13,7 @@
             <nav>
                 <ul class="nav__links">
                     <li><a href="Dashboard.php">Our Garden</a></li>
-                    <li><a href="Contact.php">Developers</a></li>
+                    <li><a href="Contact.php">About Us</a></li>
                 </ul>
             </nav>
         </header>
