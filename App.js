@@ -8,6 +8,7 @@ const water_level = document.getElementById('water_level');
 var database = firebase.database();
 
 //-----database reference------
+const reff = database.ref('sensor');
 const soilref = database.ref('sensor').child('moisture');
 const humref = database.ref('sensor').child('humidity');
 const tempref = database.ref('sensor').child('temperature');
@@ -46,21 +47,6 @@ waterref.limitToLast(1).on('value', function(snapshot){
     });
 });
 
-function getData(callbackIN){
-    var ref = database.ref('sensor').child('moisture');
-    ref.once('value').then(function(snapshot){
-        callbackIN(snapshot.val())
-    });
-}
 
-window.addEventListener("load", getData(genFunction));
+var temp = [], hum = [], water = [], soil = [];
 
-function genFunction(data){
-    var cdata = [];
-    var len = data.length;
-    for (var i = 1; i<len; i++){
-        cdata.push({
-
-        })
-    }
-}

@@ -55,7 +55,7 @@
                     </div>
                     <div class="card-single">
                         <div>
-                            <h1>0</h1>
+                            <canvas id="myChart" width="400" height="200"></canvas>
                             <span>Humidity (%t)</span>
                         </div>
                     </div>
@@ -66,8 +66,8 @@
     
     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
-    <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
-    <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
 
     <script>
   // Your web app's Firebase configuration
