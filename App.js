@@ -47,6 +47,3 @@ waterref.limitToLast(1).on('value', function(snapshot){
     });
 });
 
-
-var temp = [], hum = [], water = [], soil = [];
-

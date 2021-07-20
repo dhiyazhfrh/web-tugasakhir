@@ -81,5 +81,5 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
     </script>   
-    <script src="App.js"></script>
+    <script src="Chart.js"></script>
 </html>
