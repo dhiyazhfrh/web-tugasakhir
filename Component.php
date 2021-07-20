@@ -38,7 +38,7 @@
                 <div class="cards2">
                     <div class="card-single2">
                         <div>
-                            <img src="img/skema.jpg">
+                            <img src="img/skema.jpg" class="skema">
                         </div>
                         <div>
                             <img class="icon2" src="img/mois.svg">
