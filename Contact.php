@@ -23,6 +23,8 @@
                         <span>Components</span></a></li>
                     <li><a class="list active" href="Contact.php"><span class="las la-user-friends"></span>
                         <span>Developers</span></a></li>
+                    <li><a class="list" href="Home.php"><span class="las la-sign-out-alt"></span>
+                        <span>Back to Home</span></a></li>
                 </ul>
             </div>
         </div>
