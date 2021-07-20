@@ -1,13 +1,13 @@
-var temperature = [], humidity = [], water_level = [], moisture = [];
+var temp = [], hum = [], water = [], soil = [];
 ref = firebase.database().ref('sensor');
 
-ref.on('value', , function(childSnapshot){
+ref.on('value', function(childSnapshot){
     for (let i in childSnapshot.val().humidity){
-        humidity.push(childSnapshot.val().humidity[i]);
+        humidity.push(childSnapshot.val().hum[i]);
     }
 
-    humidity = humidity.slice(humidity.length-20, humidity.length);
-    drawGraph(humidity);
+    hum = hum.slice(hum.length-20, hum.length);
+    drawGraph(hum);
 });
 
 function drawGraph(humidity){
