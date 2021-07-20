@@ -20,7 +20,7 @@
                     <li><a class="list" href="Component.php"><span class="las la-microchip"></span>
                         <span>Components</span></a></li>
                     <li><a class="list active" href="Contact.php"><span class="las la-user-friends"></span>
-                        <span>Developers</span></a></li>
+                        <span>About Us</span></a></li>
                     <li><a class="list" href="Home.php"><span class="las la-sign-out-alt"></span>
                         <span>Back to Home</span></a></li>
                 </ul>
@@ -37,10 +37,23 @@
             <main>
                 <div class="cards2">
                     <div class="card-single3">
-                        <div>
-                            <h1>Group 2 | 4SC 6</h1><br>
-                            <span>1. Dhiya Zhafirah</span>
-                            <span>2. Surya Rifqi Fadhilah</span>
+                        <div class="row">
+                            <div class="column">
+                                <div class="card">
+                                    <img src="img/profile2.jpg"  style="width: 100%;">
+                                    <h2>Dhiya Zhafirah</h2>
+                                    <p class="title">Developer</p>
+                                    <p>Group 2 | 4SC6</p>
+                                </div>
+                            </div>    
+                            <div class="column">
+                                <div class="card">
+                                    <img src="img/profile.jpg" class="profile" style="width: 100%;">
+                                    <h2>Surya Rifqi Fadhilah</h2>
+                                    <p class="title">Developer</p>
+                                    <p>Group 2 | 4SC6</p>
+                                </div>
+                            </div>    
                         </div>
                     </div>
                 </div>

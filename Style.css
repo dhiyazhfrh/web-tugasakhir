@@ -320,3 +320,47 @@ main{
     object-fit: fill;
     
 }
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    font-family: arial;
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: 0 16px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.title {
+    color: grey;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 6px;
+  }
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 0 118px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.profile{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 100% 80%;
+}  

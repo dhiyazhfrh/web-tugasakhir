@@ -20,7 +20,7 @@
                     <li><a class="list" href="Component.php"><span class="las la-microchip"></span>
                         <span>Components</span></a></li>
                     <li><a class="list" href="Contact.php"><span class="las la-user-friends"></span>
-                        <span>Developers</span></a></li>
+                        <span>About Us</span></a></li>
                     <li><a class="list" href="Home.php"><span class="las la-sign-out-alt"></span>
                         <span>Back to Home</span></a></li>
                 </ul>
