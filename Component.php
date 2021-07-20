@@ -17,8 +17,6 @@
                 <ul>
                     <li><a class="list" href="Dashboard.php"><span class="las la-igloo"></span>
                         <span>Dashboard</span></a></li>
-                    <li><a class="list" href="Statistic.php"><span class="las la-chart-line"></span>
-                        <span>Statistics</span></a></li>
                     <li><a class="list active" href="Component.php"><span class="las la-microchip"></span>
                         <span>Components</span></a></li>
                     <li><a class="list" href="Contact.php"><span class="las la-user-friends"></span>
