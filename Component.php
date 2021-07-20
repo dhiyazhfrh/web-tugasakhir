@@ -38,8 +38,7 @@
                 <div class="cards2">
                     <div class="card-single2">
                         <div>
-                            <h1>0</h1>
-                            <span>Soil Moisture</span>
+                            <img src="img/skema.jpg">
                         </div>
                         <div>
                             <img class="icon2" src="img/mois.svg">
