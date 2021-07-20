@@ -40,9 +40,6 @@
                         <div>
                             <img src="img/skema.jpg" class="skema">
                         </div>
-                        <div>
-                            <img class="icon2" src="img/mois.svg">
-                        </div>
                     </div>
                 </div>
             </main>
